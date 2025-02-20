@@ -1,0 +1,33 @@
+/* Container */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Sections */
+.section {
+  @apply py-24;
+}
+
+/* Flexbox utilities */
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+/* Grid utilities */
+.grid-cols-auto-fit {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* Spacing utilities */
+.section-spacing {
+  @apply py-16 md:py-24;
+}
+
+/* Text utilities */
+.heading-primary {
+  @apply text-3xl md:text-4xl font-bold text-slate-900 dark:text-white;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-blue-500;
+}
